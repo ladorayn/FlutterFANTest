@@ -46,7 +46,7 @@ class UserListItem extends StatelessWidget {
                   Text(
                     email,
                     style: const TextStyle(
-                      fontSize: 12,
+                      fontSize: 10,
                       color: Colors.grey,
                     ),
                   ),
@@ -67,6 +67,7 @@ class UserListItem extends StatelessWidget {
                 style: TextStyle(
                   color: Colors.white,
                   fontWeight: FontWeight.bold,
+                  fontSize: 10,
                 ),
               ),
             ),
